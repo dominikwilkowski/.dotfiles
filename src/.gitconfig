@@ -1,0 +1,8 @@
+[user]
+	name = Dominik Wilkowski
+	email = Hi@Dominik-Wilkowski.com
+	signingkey = E8CDF6238194F13C
+[commit]
+	gpgsign = true
+[gpg]
+	program = /usr/local/bin/gpg

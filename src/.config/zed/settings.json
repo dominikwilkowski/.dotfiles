@@ -1,0 +1,51 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run the `open default settings` command
+// from the command palette or from `Zed` application menu.
+{
+	"features": {
+		"edit_prediction_provider": "zed"
+	},
+	"edit_predictions": {
+		"mode": "eager"
+	},
+	"agent": {
+		"default_model": {
+			"provider": "anthropic",
+			"model": "claude-3-7-sonnet-thinking-latest"
+		}
+	},
+	"tabs": { "file_icons": true },
+	// "telemetry": {
+	// 	"diagnostics": false,
+	// 	"metrics": false
+	// },
+	"theme": "Dom Light",
+	"base_keymap": "SublimeText",
+	"hard_tabs": true,
+	"tab_size": 2,
+	"show_whitespaces": "all",
+	"ui_font_size": 16,
+	"buffer_font_size": 18,
+	"buffer_font_family": "Operator Mono Lig",
+	"wrap_guides": [80, 120],
+	"buffer_font_features": {
+		"calt": false
+	},
+	"terminal": {
+		// "theme": "Andromeda"
+	},
+	"confirm_quit": true,
+	"languages": {
+		"HTML": {
+			"format_on_save": "off"
+		},
+		"Markdown": {
+			"show_edit_predictions": false
+		}
+	}
+}
