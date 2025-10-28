@@ -123,13 +123,13 @@ build_prompt() {
 	fi
 
 	# final render
-	print -P -- "${cwd_seg}${git_seg}${err_seg} ${final_arrow} "
+	echo "${cwd_seg}${git_seg}${err_seg} ${final_arrow} "
 }
 
 
 # Tell zsh to use it
 PROMPT='$(build_prompt)'
-RPROMPT=''	# nothing on the right for now
+RPROMPT='' # nothing on the right for now
 
 ###############################################| PROMPT |###############################################
 
