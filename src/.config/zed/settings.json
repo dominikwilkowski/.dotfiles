@@ -8,22 +8,18 @@
 // from the command palette or from `Zed` application menu.
 {
 	"features": {
-		"edit_prediction_provider": "zed"
+		"edit_prediction_provider": "zed",
 	},
 	"edit_predictions": {
-		"mode": "eager"
+		"mode": "eager",
 	},
-	"agent": {
-		"default_model": {
-			"provider": "anthropic",
-			"model": "claude-3-7-sonnet-thinking-latest"
-		}
-	},
-	"tabs": { "file_icons": true },
-	// "telemetry": {
-	// 	"diagnostics": false,
-	// 	"metrics": false
+	// "agent": {
+	// 	"default_model": {
+	// 		"provider": "anthropic",
+	// 		"model": "claude-3-7-sonnet-thinking-latest",
+	// 	},
 	// },
+	"tabs": { "file_icons": true },
 	"theme": "Dom Light",
 	"base_keymap": "SublimeText",
 	"hard_tabs": true,
@@ -34,18 +30,15 @@
 	"buffer_font_family": "Operator Mono Lig",
 	"wrap_guides": [80, 120],
 	"buffer_font_features": {
-		"calt": false
-	},
-	"terminal": {
-		// "theme": "Andromeda"
+		"calt": false,
 	},
 	"confirm_quit": true,
 	"languages": {
 		"HTML": {
-			"format_on_save": "off"
+			"format_on_save": "off",
 		},
 		"Markdown": {
-			"show_edit_predictions": false
-		}
-	}
+			"show_edit_predictions": false,
+		},
+	},
 }

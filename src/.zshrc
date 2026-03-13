@@ -160,7 +160,7 @@ alias lr='ls -R | grep ":$" | sed -e '\''s/:$//'\'' -e '\''s/[^-][^\/]*\//--/g'\
 alias astart='sudo apachectl start'
 
 # start server from current dir
-alias serve='python -m SimpleHTTPServer 8000'
+alias serve='python3 -m http.server 8000'
 
 # kill video
 alias killVideo='sudo killall VDCAssistant'
