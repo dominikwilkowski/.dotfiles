@@ -166,4 +166,4 @@ alias serve='python3 -m http.server 8000'
 alias killVideo='sudo killall VDCAssistant'
 
 # upgrade
-alias upgrade='echo "\x1B[43m\x1B[30m $(date +"%Y-%B-%d %H:%M:%S") \x1B[0m" && rustup update && brew upgrade'
+alias upgrade='echo "\x1B[43m\x1B[30m $(date +"%Y-%B-%d %H:%M:%S") \x1B[0m" && rustup update && brew upgrade && claude update'
